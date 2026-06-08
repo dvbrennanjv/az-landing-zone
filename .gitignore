@@ -1,0 +1,12 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Secrets
+*.tfvars
+*.auto.tfvars
